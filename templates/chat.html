@@ -16,7 +16,7 @@
     </form>
     
     {% for message in chat_messages %}
-        <p>({{ message.timestamp }}) {{ message.from }}: {{ message.message }}</p>
+        <p>({{ message.timestamp }}) <b>{{ message.from }}:</b> {{ message.message }}</p>
     {% endfor %}
     
     <script>
